@@ -17,7 +17,7 @@ function Navbar({cart}) {
         <Link href="/Resources "><p className="mr-5 hover:text-gray-900">Resources</p></Link>
         <Link href="/Track "><p className="mr-5 hover:text-gray-900">Track</p></Link>
         <Link href="/checkout "><p className="mr-5 hover:text-gray-900">Cart({cart.length})</p></Link>
-        <Link href="/contact "><p className="mr-5 hover:text-gray-900">Contact</p></Link>
+        {/* <Link href="/contact "><p className="mr-5 hover:text-gray-900">Contact</p></Link> */}
       </nav>
       
      <Link href="/login"><button className=" text-white bg-indigo-500 border-0 py-2 md:py-2 px-4 md:px-4 focus:outline-none hover:bg-indigo-600 rounded text-sg mr-5">Login</button></Link>
