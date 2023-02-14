@@ -3,11 +3,12 @@ import Navbar from '@/Components/Navbar'
 import Footer from '@/Components/Footer'
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
+import Router from "next/router";
+
+
 
 export default function App({ Component, pageProps }) {
-  <Head>
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0"/>
-  </Head>
+  
   useEffect(() => {
     console.log("iam useefefef")
   }, [])
