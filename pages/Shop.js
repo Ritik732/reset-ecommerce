@@ -57,7 +57,7 @@ const Shop = (props) => {
 }
 export async function getServerSideProps(context) {
   let headers = { Authorization: "Bearer 09171d83301cfd8eda584b7d9108595c28726aeb132a6f9ad3d4e61d51259415fe75640e362d5bd535a339681f1a1925175587074ae69c0f9d6e5dc665c0f0671e3a117b0cac96728129bf1e3950008b29f8ca19d573fea7825764dd7bde77eee74bacc2f703d758c74bef56bc93a5e8e6ef2cf2faca6bad1752115879ea49a3" }
-  let a = await fetch("http://localhost:1337/api/products?populate=*", { headers: headers })
+  let a = await fetch(" https://0d01-115-240-117-114.in.ngrok.io/api/products?populate=*", { headers: headers })
   let products = await a.json()
   console.log(products)
   return {
